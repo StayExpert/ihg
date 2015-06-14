@@ -1,27 +1,27 @@
 {
   "name": "ihg",
-  "version": "0.0.0",
-  "description": "starwood hotels price fetcher",
+  "version": "0.0.1",
+  "description": "a IHG hotels price fetcher",
   "main": "index.js",
   "scripts": {
-    "test": "DEBUG=starwood,starwood:* node_modules/.bin/mocha tests/search.js",
-    "dev": "DEBUG=starwood,starwood:*,sdk,sdk:* node example/example.js",
+    "test": "DEBUG=ihg,ihg:* node_modules/.bin/mocha tests/search.js",
+    "dev": "DEBUG=ihg,ihg:*,sdk,sdk:* node example/example.js",
     "example": "npm run dev"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sayoou/starwood.git"
+    "url": "https://github.com/StayExpert/ihg.git"
   },
   "keywords": [
     "spg",
-    "starwood"
+    "ihg"
   ],
   "author": "turing <o.u.turing@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sayoou/starwood/issues"
+    "url": "https://github.com/StayExpert/ihg/issues"
   },
-  "homepage": "https://github.com/sayoou/starwood",
+  "homepage": "https://github.com/StayExpert/ihg",
   "dependencies": {
     "cheerio": "^0.18.0",
     "debug": "^2.1.0",
