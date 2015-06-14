@@ -1,6 +1,6 @@
 ## IHG ![NPM version](https://img.shields.io/npm/v/ihg.svg?style=flat) 
 
-a SDK of IHG hotels APIs.
+a SDK of IHG hotels APIs. [WIP yet]
 
 ### Installation
 ```bash
